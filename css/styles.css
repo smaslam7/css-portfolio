@@ -1,4 +1,5 @@
 /*
+https://coolors.co/33658a-86bbd8-2f4858-f6ae2d-f26419
 33658a ---> Queen Blue
 86bbd8 ---> Dark Sky Blue
 2f4858 ---> Charcoal
@@ -14,6 +15,12 @@ body {
 img {
     width: 300px;
 }
+a {
+    color: #f6ae2d;
+}
+a:hover {
+    text-decoration: none;
+}
 
 /* Profile
 -------------------------------*/
@@ -27,6 +34,19 @@ header {
 -------------------------------*/
 .projects {
     background: #f26419;
+}
+.projects a {
+    color: #86bbd8;
+}
+.projects .btn {
+    color: #fff;
+    background: #2f4858;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+.projects .btn:hover {
+    background: rgba(47, 72, 88, 80%);
 }
 
 
