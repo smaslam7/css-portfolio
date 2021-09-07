@@ -1,3 +1,48 @@
+/*
+33658a ---> Queen Blue
+86bbd8 ---> Dark Sky Blue
+2f4858 ---> Charcoal
+f6ae2d ---> Honey Yellow
+f26419 ---> Safety Orange Blaze Orange
+*/
+
+/* Global Styles
+-------------------------------*/
+body {
+    color: #2f4858;
+}
 img {
     width: 300px;
+}
+
+/* Profile
+-------------------------------*/
+header {
+    background: #33658a;
+    color: #fff;
+}
+
+
+/* Projects
+-------------------------------*/
+.projects {
+    background: #f26419;
+}
+
+
+/* Work Experience
+-------------------------------*/
+.work-experience {
+    background: #86bbd8;
+}
+
+/* Education
+-------------------------------*/
+
+
+/* Contact Info
+-------------------------------*/
+footer {
+    background: #f6ae2d;
+    color: #fff;
 }
