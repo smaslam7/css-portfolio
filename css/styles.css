@@ -1,42 +1,53 @@
 /*
-https://coolors.co/33658a-86bbd8-2f4858-f6ae2d-f26419
-33658a ---> Queen Blue
-86bbd8 ---> Dark Sky Blue
-2f4858 ---> Charcoal
-f6ae2d ---> Honey Yellow
-f26419 ---> Safety Orange Blaze Orange
+COLOR PALETTE
+https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+#F7FFF7 - almost white
+#343434 - dark gray - almost black
+#2F3061 - blue dark
+#FFE66D - yellow
+#A1C6D7 - blue light
 */
 
 /* Global Styles
 -------------------------------*/
 body {
-    color: #2f4858;
+    color: #343434;
+    margin: 0;
+    padding: 0;
 }
 img {
     width: 300px;
 }
 a {
-    color: #f6ae2d;
+    color: #FFE66D;
 }
 a:hover {
     text-decoration: none;
+}
+h2 {
+    margin: 0;
+}
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
 }
 
 /* Profile
 -------------------------------*/
 header {
-    background: #33658a;
-    color: #fff;
+    background: #2F3061;
+    color: #F7FFF7;
 }
 
 
 /* Projects
 -------------------------------*/
 .projects {
-    background: #f26419;
+    background: #F7FFF7;
 }
 .projects a {
-    color: #86bbd8;
+    color: #2F3061;
 }
 .projects .btn {
     color: #fff;
@@ -44,16 +55,17 @@ header {
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
+    display: inline-block;
 }
 .projects .btn:hover {
-    background: rgba(47, 72, 88, 80%);
+    background: rgba(47, 48, 97, 80%);
 }
 
 
 /* Work Experience
 -------------------------------*/
 .work-experience {
-    background: #86bbd8;
+    background: #A1C6D7;
 }
 
 /* Education
@@ -63,6 +75,6 @@ header {
 /* Contact Info
 -------------------------------*/
 footer {
-    background: #f6ae2d;
-    color: #fff;
+    background: #343434;
+    color: #F7FFF7;
 }
