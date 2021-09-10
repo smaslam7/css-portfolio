@@ -10,6 +10,12 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 
 /* Global Styles
 -------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: initial;
+}
 body {
     color: #343434;
     margin: 0;
@@ -71,6 +77,18 @@ header {
 }
 .projects .btn:hover {
     background: rgba(47, 48, 97, 80%);
+}
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+}
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3 {
+    margin-top: 0;
 }
 
 
